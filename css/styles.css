@@ -188,6 +188,12 @@ ul {
     
 }
 
+.prime-list-project .prime-social-link:hover .text-wrapper,
+.prime-list-project .prime-social-link:focus .text-wrapper {
+    opacity: 1;
+    transform: translateY(0);
+    
+}
 .text-wrapper {
     position: absolute;
     display: block;
@@ -209,14 +215,6 @@ ul {
     transition: transform var(--duration) var(--timing-function);
   
 }
-
-.prime-list-project .prime-item-project:hover .text-wrapper,
-.prime-list-project .prime-item-project:focus .text-wrapper {
-   opacity: 1;
-   transform: translateY(0);
-
-}
-
 
 .picture {
     padding: 20px 24px;
@@ -791,6 +789,7 @@ span {
 }
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0);
+    
 }
 .button-close {
     display: flex;
